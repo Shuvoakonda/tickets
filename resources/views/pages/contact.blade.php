@@ -7,7 +7,7 @@
                 <h2 class="title">contact us</h2>
                 <ul class="breadcrumb">
                     <li>
-                        <a href="index.html">
+                        <a href="{{ route('index') }}">
                             Home
                         </a>
                     </li>

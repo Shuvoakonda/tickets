@@ -7,7 +7,7 @@
                 <h2 class="title">about us</h2>
                 <ul class="breadcrumb">
                     <li>
-                        <a href="{{ asset('index') }}">
+                        <a href="{{ route('index') }}">
                             Home
                         </a>
                     </li>
@@ -27,7 +27,7 @@
                 <div class="col-lg-6">
                     <div class="event-about-content">
                         <div class="section-header-3 left-style m-0">
-                            <span class="cate">we are Boleto </span>
+                            <span class="cate">we are </span>
                             <h2 class="title">Get to know us</h2>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut labore et
@@ -38,7 +38,7 @@
                                 dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit
                             </p>
-                            <a href="#0" class="custom-button">book tickets</a>
+                            <a href="{{ route('event_checkout') }}" class="custom-button">book tickets</a>
                         </div>
                     </div>
                 </div>

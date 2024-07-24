@@ -62,7 +62,7 @@
                                 <li class="del"><del>Video presentations</del></li>
                                 <li class="del"><del>Meet all of our event speakers</del></li>
                             </ul>
-                            <a href="#0" class="custom-button">book tickets</a>
+                            <a href="{{ route('event_checkout') }}" class="custom-button">book tickets</a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                                 <li>Video presentations</li>
                                 <li class="del"><del>Meet all of our event speakers</del></li>
                             </ul>
-                            <a href="#0" class="custom-button">book tickets</a>
+                            <a href="{{ route('event_checkout') }}" class="custom-button">book tickets</a>
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                                 <li>Video presentations</li>
                                 <li>Meet all of our event speakers</li>
                             </ul>
-                            <a href="#0" class="custom-button">book tickets</a>
+                            <a href="{{ route('event_checkout') }}" class="custom-button">book tickets</a>
                         </div>
                     </div>
                 </div>

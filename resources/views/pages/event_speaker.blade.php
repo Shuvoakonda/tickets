@@ -7,12 +7,12 @@
                 <h2 class="title">Speaker Profile</h2>
                 <ul class="breadcrumb">
                     <li>
-                        <a href="index.html">
+                        <a href="{{ route('index') }}">
                             Home
                         </a>
                     </li>
                     <li>
-                        <a href="events.html">
+                        <a href="{{ route('event_details') }}">
                             event
                         </a>
                     </li>

@@ -2,13 +2,13 @@
     <div class="container">
         <div class="header-wrapper">
             <div class="logo">
-                <a href="#">
+                <a href="{{ route('index') }}">
                     <img src="assets/images/logo/logo.png" alt="logo">
                 </a>
             </div>
             <ul class="menu">
                 <li>
-                    <a href="{{ route('index') }}" class="active">events</a>
+                    <a href="{{ route('index') }}" class="">events</a>
                     <ul class="submenu">
                         <li>
                             <a href="{{ route('index') }}" class="active">Events</a>
@@ -33,7 +33,7 @@
                 </li>
 
                 <li>
-                    <a href="{{ route('contact') }}">contact</a>
+                    <a href="{{ route('contact') }}">Contact us</a>
                 </li>
                 <li class="header-button pr-0">
                     <a href="{{ route('login') }}">join us</a>

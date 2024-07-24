@@ -40,7 +40,7 @@
                                 <p class="seco_text">sec</p>
                             </li>
                         </ul>
-                        <a href="#0" class="custom-button">book tickets</a>
+                        <a href="{{ route('event_checkout') }}" class="custom-button">book tickets</a>
                     </div>
                 </div>
                 <div class="event-search-bottom">
@@ -197,13 +197,13 @@
                 <div class="speaker-slider owl-carousel owl-theme">
                     <div class="speaker-item">
                         <div class="speaker-thumb">
-                            <a href="event-speaker.html">
+                            <a href="{{ route('event_speaker') }}">
                                 <img src="assets/images/speaker/speaker01.jpg" alt="speaker">
                             </a>
                         </div>
                         <div class="speaker-content">
                             <h5 class="title">
-                                <a href="event-speaker.html">
+                                <a href="{{ route('event_speaker') }}">
                                     Gerard Bryan
                                 </a>
                             </h5>
@@ -212,13 +212,13 @@
                     </div>
                     <div class="speaker-item">
                         <div class="speaker-thumb">
-                            <a href="event-speaker.html">
+                            <a href="{{ route('event_speaker') }}">
                                 <img src="assets/images/speaker/speaker02.jpg" alt="speaker">
                             </a>
                         </div>
                         <div class="speaker-content">
                             <h5 class="title">
-                                <a href="event-speaker.html">
+                                <a href="{{ route('event_speaker') }}">
                                     Raihan Rafuj
                                 </a>
                             </h5>
@@ -227,13 +227,13 @@
                     </div>
                     <div class="speaker-item">
                         <div class="speaker-thumb">
-                            <a href="event-speaker.html">
+                            <a href="{{ route('event_speaker') }}">
                                 <img src="assets/images/speaker/speaker03.jpg" alt="speaker">
                             </a>
                         </div>
                         <div class="speaker-content">
                             <h5 class="title">
-                                <a href="event-speaker.html">
+                                <a href="{{ route('event_speaker') }}">
                                     Bela Bose
                                 </a>
                             </h5>
@@ -242,13 +242,13 @@
                     </div>
                     <div class="speaker-item">
                         <div class="speaker-thumb">
-                            <a href="event-speaker.html">
+                            <a href="{{ route('event_speaker') }}">
                                 <img src="assets/images/speaker/speaker04.jpg" alt="speaker">
                             </a>
                         </div>
                         <div class="speaker-content">
                             <h5 class="title">
-                                <a href="event-speaker.html">
+                                <a href="{{ route('event_speaker') }}">
                                     Grass Hopper
                                 </a>
                             </h5>
